@@ -20,8 +20,14 @@ public class Data {
 
     //Photo data
     public static final String expectedtUrl_Photo = "https://romanceabroad.com/media/index";
+
+    //Tour to Ukrain
     public static final String expectedtUrl_Tour_to_ukraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
+
+    //Gifts
     public static final String expectedtUrl_Gifts = "https://romanceabroad.com/store/category-sweets";
+
+    //Blog
     public static final String expectedtUrl_Blog = "https://romanceabroad.com/content/view/blog";
 
 }

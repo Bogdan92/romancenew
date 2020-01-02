@@ -13,4 +13,5 @@ public class TourToUkraine extends BaseUI {
         Assert.assertEquals(currentUrl_Tour_to_ukraine, Data.expectedtUrl_Tour_to_ukraine);
 
     }
+
 }

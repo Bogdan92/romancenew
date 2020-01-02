@@ -14,7 +14,6 @@ public class RegistrationTest extends BaseUI {
         driver.findElement(Locators.BUTTON_NEXT).click();
         driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(Data.nickname);
         driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(Data.phone);
-        driver.findElement(Locators.CONFIRM).click();
     }
 }
 

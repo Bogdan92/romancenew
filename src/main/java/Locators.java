@@ -12,7 +12,6 @@ public class Locators {
     public static final By TEXT_FIELD_PASSWORD = By.cssSelector("input#password");
     public static final By TEXT_FIELD_NICKNAME = By.cssSelector("#nickname");
     public static final By TEXT_FIELD_PHONE = By.cssSelector("input[name='data[phone]']");
-    public static final By CONFIRM = By.cssSelector("#confirmation");
 
 
     //Search page
@@ -31,7 +30,7 @@ public class Locators {
     public static final By GIFT = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");
 
     //Tour to Ukraine
-    public static final By TOUR_TO_UKRAINE = By.xpath("//a['href=https://romanceabroad.com/store/sweets/20-tour_to_ukraine']");
+    public static final By TOUR_TO_UKRAINE = By.xpath("//a[@href='https://romanceabroad.com/store/sweets/20-tour_to_ukraine']");
 
     //Blog
     public static final By BLOG = By.cssSelector("a[href='https://romanceabroad.com/content/view/blog']");
