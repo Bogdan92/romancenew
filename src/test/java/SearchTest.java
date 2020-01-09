@@ -24,8 +24,18 @@ public class SearchTest extends BaseUI {
         select.selectByVisibleText("Views");
         Select select1 = new Select(driver.findElement(Locators.AGE_MIN));
         select1.selectByValue("22");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Select select2 = new Select(driver.findElement(Locators.AGE_MAX));
         select2.selectByValue("33");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         driver.findElement(Locators.SEARCH_BUTTON).click();
     }
 }
